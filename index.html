@@ -11,37 +11,48 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="container">
         <header>
-            <nav class="navbar">
-                <div>
-                    <a href="index.html"><img src="#" alt="site logo" /></a>
-                    <h1>Hiro Egashira</h1>
-                </div>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about"></a>About</li>
-                    <li><a href="#skills"></a>Skills</li>
-                    <li><a href="#portfolio"></a>Portfolio</li>
-                    <li><a href="#testimonials"></a>Testimonials</li>
-                    <li><a href="#contact"></a>Contact</li>
-                </ul>
-            </nav>
+            <div class="navbar-expand{-sm|-md|-lg|-xl}">
+                <img class="portrait" src="images/headawaysquare.png">
+                <nav class="navbar navbar-expand-lg justify-content-end">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
-        <div class="content" id="home">
+        <div class="row" id="home">
             <p>Hello! I am a freelance developer and forever programming student. If you have a past, present, or future project where I might be able to serve you please contact me.</p>
             <p>The most prominent piece of work I can use as an example of my abilities is right here. All code used to create this site has been written by me as a showcase of my current skillset.</p>
         </div>
         
-        <div class="content" id="about">
+        <div class="row" id="about">
             <p>My name is Hiro and I am from Seattle and have lived in and around the Puget Sound for most of my life.</p>
             <p>I spent the first part of my career supporting the small businesses that make up the building materials industry of Washington and Hawaii while studying programming during my free time.</p>
             <p>In June 2018 I decided to commit myself full time to programming and am thrilled to have finally made that jump. I have completed the Treehouse online Frontend Development program and am now studying Database and Software Development and expect to graduate in 2020. For more detail on my skill level in each language see my skills page.</p>
             <p>Outside of professional activities I enjoy spending time with my family, cycling, hiking, and game nights with friends.</p>
         </div>
 
-        <div class="content" id="skills">
+        <div class="row" id="skills">
             <p></p>
             <ul>
                 <li>GIT</li>
@@ -55,21 +66,21 @@
             </ul>
         </div>
 
-        <div class="content" id="portfolio">
+        <div class="row" id="portfolio">
 
         </div>
 
-        <div class="content" id="testmonials">
+        <div class="row" id="testmonials">
 
         </div>
 
-        <div class="contact" id="contact">
+        <div class="row" id="contact">
             <p>Hiro Egashira</p>
             <a href="mailto:ahegashira@gmail.com">Email Me</a>
             <a href="https://github.com/ahegashira">Github</a>
             <a href="https://www.linkedin.com/in/hiro-egashira/">LinkedIn</a>
         </div>
-        <footer>
+        <footer class="row">
             &copy; Hiro Egashira 2019
             
         </footer>
