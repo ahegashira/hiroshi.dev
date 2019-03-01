@@ -1,6 +1,35 @@
-
+body {
+    background-color: black;
+}
 /***** Header *****/
+header {
+    border-radius: 90px 0 50px 0;
+    background-color: rgb(23, 43, 78);
+    height: 200px;
+}
+
+.portrait {
+    margin: 25px;
+    max-height: 150px;
+    border-radius: 50% 0 50% 0;
+    display: inline;
+    float: left;
+}
 
 /***** Navigation *****/
 
+/***** Body Styles *****/
 
+.row {
+    margin-top: 10px;
+    scroll-margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 90px 5px 50px 5px;
+    background-color: cadetblue;
+}
+
+.row p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
