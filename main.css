@@ -9,3 +9,12 @@
     border-right: 1px solid white;
     border-bottom: 1px solid white;
 }
+
+blockquote {
+    padding: 1.5rem;
+    margin: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: slategray;
+    background: white;
+}
