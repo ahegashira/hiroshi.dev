@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <title>See, Click, Hear</title>
+</head>
+
+
+<body>
+    <main class="phone">
+        <div>
+            
+            <button id="pbutton" class="play" onclick="playOne()">1</button>
+            <button id="pbutton" class="play" onclick="playTwo()">2</button>
+            <button id="pbutton" class="play" onclick="playThree()">3</button>
+        </div>
+        <div>    
+            <button id="pbutton" class="play" onclick="playFour()">4</button>
+            <button id="pbutton" class="play" onclick="playFive()">5</button>
+            <button id="pbutton" class="play" onclick="playSix()">6</button>
+        </div>
+        <div>
+            <button id="pbutton" class="play" onclick="playSeven()">7</button>
+            <button id="pbutton" class="play" onclick="playEight()">8</button>
+            <button id="pbutton" class="play" onclick="playNine()">9</button>
+        </div>
+        <div>
+            <button id="hide">0</button>    
+            <button id="pbutton" class="play" onclick="playZero()">0</button>
+            <button id="hide">0</button>
+        </div>
+    </main>
+    <audio id="one" src="audio_files/one.m4a" autoplay="false"></audio>
+    <audio id="two" src="audio_files/two.m4a" autoplay="false"></audio>
+    <audio id="three" src="audio_files/three.m4a" autoplay="false"></audio>
+    <audio id="four" src="audio_files/four.m4a" autoplay="false"></audio>
+    <audio id="five" src="audio_files/five.m4a" autoplay="false"></audio>
+    <audio id="six" src="audio_files/six.m4a" autoplay="false"></audio>
+    <audio id="seven" src="audio_files/seven.m4a" autoplay="false"></audio>
+    <audio id="eight" src="audio_files/eight.m4a" autoplay="false"></audio>
+    <audio id="nine" src="audio_files/nine.m4a" autoplay="false"></audio>
+    <audio id="zero" src="audio_files/zero.m4a" autoplay="false"></audio>
+</body>
+
+
+
+
+<style>
+    .phone{
+        text-align: center;
+        margin: auto;
+        background-color: slategrey;
+        height: 100vh;
+        padding-top: 20vh;
+    }
+
+    #pbutton{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        font-size: 3em;
+        text-align: center;
+        color: black;
+        background-color: orange;
+        border: 1em, 1em;
+    }
+
+    #hide{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        border: 1em;
+        font-size: 3em;
+        text-align: center;
+        color: slategray;
+        background-color: slategray;
+    }
+</style>
+
+<script>
+        function playOne() {
+            var sound = document.getElementById("one");
+            sound.play()
+        }
+        function playTwo() {
+            var sound = document.getElementById("two");
+            sound.play()
+        }
+        function playThree() {
+            var sound = document.getElementById("three");
+            sound.play()
+        }
+        function playFour() {
+            var sound = document.getElementById("four");
+            sound.play()
+        }
+        function playFive() {
+            var sound = document.getElementById("five");
+            sound.play()
+        }
+        function playSix() {
+            var sound = document.getElementById("six");
+            sound.play()
+        }
+        function playSeven() {
+            var sound = document.getElementById("seven");
+            sound.play()
+        }
+        function playEight() {
+            var sound = document.getElementById("eight");
+            sound.play()
+        }
+        function playNine() {
+            var sound = document.getElementById("nine");
+            sound.play()
+        }
+        function playZero() {
+            var sound = document.getElementById("zero");
+            sound.play()
+        }
+</script>
+
