@@ -24,7 +24,6 @@ a {
 }
 
 .portrait {
-    clear: left;
     margin: 50px;
     max-height: 300px;
     border-radius: 50%;
