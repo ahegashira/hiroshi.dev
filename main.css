@@ -1,8 +1,11 @@
 a {
     padding: 0 20px 0 20px;
     font-family: 'Special Elite', cursive;
-    font-size: 24px;
     color: #D9B310;
+}
+
+nav {
+    font-size: 24px;
 }
 
 nav, footer {
@@ -31,7 +34,7 @@ nav, footer {
 
 .portrait {
     margin: 50px;
-    max-height: 150px;
+    max-height: 20rem;
     border-radius: 50%;
     border: 1px solid #D9B310;
 }
@@ -49,7 +52,7 @@ h1, h3 {
 }
 
 body {
-    background: #328CC1 url("images/vlad-tchompalov-kNtnzyY8pZ0-unsplash.jpg") no-repeat center bottom;
+    background: #328CC1 url("images/vlad-tchompalov-kNtnzyY8pZ0-unsplash1.png") no-repeat center bottom;
     background-size: cover;
     margin: 0;
     display: -webkit-box;
