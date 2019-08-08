@@ -10,11 +10,12 @@ nav, footer {
     height: 12vh;
     line-height: 11vh;
     background-color: #0B3C5D;
-    
 }
 
 #main {
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: calc(100vh - 24vh);
 }
 
